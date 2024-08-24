@@ -34,7 +34,7 @@ const Signin = () => {
             <Button
               onClick={async () => {
                 const response = await axios.post(
-                  `${BACKEND_PROD_URL}/api/v1/user/signi`,
+                  `${BACKEND_PROD_URL}/api/v1/user/signin`,
                   {
                     username,
                     password,
